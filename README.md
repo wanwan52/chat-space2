@@ -12,13 +12,13 @@ Things you may want to cover:
 |name|string|null: false, unique: true, index: true|
 |email|string|null: false|
  
-* Ruby version
+
 ### Association
 - has_many :groups, through: :members
 - has_many :members
 - has_many :messages
 
-* System dependencies
+
 ## groupsテーブル
 
 
