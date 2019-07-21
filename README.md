@@ -6,7 +6,7 @@ application up and running.
 
 ## usersテーブル
 　
-Things you may want to cover:
+
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false, unique: true, index: true|
