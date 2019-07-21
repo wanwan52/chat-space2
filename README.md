@@ -1,7 +1,9 @@
 # README
 # DB設計
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
+
 ## usersテーブル
 　
 Things you may want to cover:
@@ -9,6 +11,7 @@ Things you may want to cover:
 |------|----|-------|
 |name|string|null: false, unique: true, index: true|
 |email|string|null: false|
+ 
 * Ruby version
 ### Association
 - has_many :groups, through: :members
@@ -58,18 +61,3 @@ Things you may want to cover:
 - belongs_to :group
 - belongs_to :user
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
